@@ -115,7 +115,3 @@ These three summarization methods provide flexible ways to generate summaries:
 2. **Falcon Model (T5)**: A powerful pre-trained model for summarization.
 3. **Default Transformers Model**: A simpler, yet effective, method using Hugging Face's default summarization models.
 
-You can choose any method based on your specific use case and the level of customization or model choice you prefer.
-```
-
-This markdown content provides clear explanations for each part of the code and is formatted to be ready for documentation or tutorial purposes.
