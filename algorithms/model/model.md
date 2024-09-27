@@ -171,5 +171,3 @@ def calculate_air_quality_manually(co, no, no2, o3, so2, nh3):
 ## Conclusion
 
 This script predicts air quality levels based on common pollutants and classifies them into health categories. It provides useful insights such as error margins, pollutant concentration, and AQI verdicts.
-```
-
