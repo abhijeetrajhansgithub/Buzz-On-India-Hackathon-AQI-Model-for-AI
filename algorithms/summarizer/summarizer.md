@@ -1,4 +1,3 @@
-Here is the requested markdown file content for the provided codes, along with explanations:
 
 ```markdown
 # Code Explanation for LlamaAPI and Transformers-based Summarization Models
