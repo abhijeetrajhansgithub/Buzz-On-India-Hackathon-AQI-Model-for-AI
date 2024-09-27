@@ -3,7 +3,7 @@ import json
 
 
 def get_pollution_data():
-    api_key = '198b3a31dccbbd79f5238a2bb713fb38'
+    api_key = 'API-key'
     lat = 28.6139
     lon = 77.2089
     url = fr"http://api.openweathermap.org/data/2.5/air_pollution?lat={lat}&lon={lon}&appid={api_key}"
