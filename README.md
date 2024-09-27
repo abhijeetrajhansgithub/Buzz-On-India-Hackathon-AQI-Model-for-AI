@@ -134,4 +134,4 @@ By allowing users to submit emails and comments, the application fosters communi
 
 ## Conclusion
 
-This Flask web application combines various technologies and algorithms to monitor air quality, engage with users, and provide valuable information. It serves as a prototype for building more advanced environmental monitoring systems, focusing on usability and community interaction.
+This Flask web application combines various technologies and algorithms to monitor air quality, engage with users, and provide valuable information. It serves as a prototype for building more advanced environmental monitoring systems, focusing on usability and community interaction; along with the integration of ChatBot for the user.
