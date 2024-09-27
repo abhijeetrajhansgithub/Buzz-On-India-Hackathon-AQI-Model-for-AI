@@ -96,8 +96,3 @@ The returned `pollution_info` dictionary would contain the concentrations of dif
 1. Replace `'API-key'` with your OpenWeatherMap API key.
 2. Run the script, and it will fetch and display pollution stats for New Delhi, India.
 ```
-
-## Conclusion
-
-This script demonstrates how to use the **OpenWeatherMap API** to fetch pollution data for a specified location. It uses **requests** to make HTTP requests and **json** to handle the response data. The key information extracted includes concentrations of pollutants like CO, NO, and PM2.5, and the overall AQI for the location.
-```
