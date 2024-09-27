@@ -1,3 +1,4 @@
+This script predicts air quality levels based on common pollutants and classifies them into health categories. It provides useful insights such as error margins, pollutant concentration, and AQI verdicts.
 
 ```
 # Air Quality Prediction System
@@ -167,7 +168,3 @@ def calculate_air_quality_manually(co, no, no2, o3, so2, nh3):
     return results
 ```
 - This function works similarly to the previous one, but also provides additional pollutant ratios, such as the CO concentration ratio and the combined NO and NO2 ratio.
-
-## Conclusion
-
-This script predicts air quality levels based on common pollutants and classifies them into health categories. It provides useful insights such as error margins, pollutant concentration, and AQI verdicts.
