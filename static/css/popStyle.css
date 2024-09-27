@@ -1,0 +1,73 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ab9565, 0 0 20px #d3a134, 0 0 25px #d3a134;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    max-height: 30rem;
+    overflow-y: auto;
+    position: absolute; /* Use absolute positioning */
+    top: 50%; /* Position from top */
+    left: 50%; /* Position from left */
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 5%;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+   transition: box-shadow 0.3s ease;
+}
+.modal-content:hover{
+    box-shadow: 10px 10px 10px rgba(52, 23, 4, 0.81);
+}
+
+/* Close button inside the modal */
+.close {
+    color: #aaa;
+    padding: 2px;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(255, 14, 14, 0.659);
+    border-radius: 5px;
+}
+
+.modal-content form p{
+    color: red;
+}
+#submit_btn,#submit_email_btn,#result_btn, #get-aqi-update-result-button{
+    padding:10px ;
+    width: auto;
+    margin: 20px 20px 20px 0;
+    color: white;
+    background-color: #e86012;
+    border: transparent;
+    border-radius: 5px;
+}
+
+#submit_btn:hover,#submit_email_btn:hover, #result_btn:hover, #get-aqi-update-result-button:hover{
+    cursor: pointer;
+    background-color: #d68d63;
+}
+#submit_btn:active,#submit_email_btn:active, #result_btn:active{
+
+    cursor: pointer;
+    background-color: #312015;
+}

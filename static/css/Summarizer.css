@@ -1,0 +1,37 @@
+/* Ensure Summarizer Popup appears above other elements */
+.summarizer-popup {
+    position: absolute;
+    display: none;  /* Initially hidden */
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;  /* High z-index to bring it to the front */
+    border: 1px solid #312015;
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: 80%;
+}
+
+/* Gradient text for the popup */
+.gradient-text {
+    background: linear-gradient(to right, #1a1a1d, #4e4e50, #6f2232, #950740, #c3073f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding: 10px 0 10px 10px;
+    justify-content: normal;
+}
+
+/* Summarizer label styling */
+.summarize-label {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 2px;
+    margin-left: 20px;
+    border: 1px solid #312015;
+    border-radius: 4px;
+    background: linear-gradient(to right, #1a1a1d, #4e4e50, #6f2232, #950740, #c3073f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}

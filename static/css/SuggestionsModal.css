@@ -1,0 +1,85 @@
+/* Community Forum Icon */
+.suggestions-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 180px;
+    width: 60px;
+    height: 60px;
+    background-color: #4a90e2; /* Forum icon color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+.suggestions-icon:hover {
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Suggestions Modal Styles */
+.suggestions-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+}
+
+.suggestions-modal-content {
+    position: absolute; /* Use absolute positioning */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to center */
+    padding: 20px; /* Spacing inside the modal */
+    border-radius: 10px; /* Rounded corners */
+    width: 40%; /* Fixed width for the modal */
+    max-height: 80%; /* Maximum height for modal */
+    overflow-y: auto; /* Enable vertical scrolling for content */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background: linear-gradient(135deg, rgba(255, 182, 193, 0.6), rgba(255, 218, 185, 0.6), rgba(255, 240, 200, 0.6));
+    backdrop-filter: blur(100px);
+}
+
+.suggestions-close {
+    color: white; /* Close button color */
+    float: right; /* Align to the right */
+    font-size: 28px; /* Font size for close button */
+    font-weight: bold; /* Bold font weight */
+}
+
+.suggestions-close:hover,
+.suggestions-close:focus {
+    color: black; /* Change color on hover/focus */
+    text-decoration: none; /* No underline */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Additional styling for AQI content */
+#aqiContent {
+    padding: 15px;
+    max-height: 60vh; /* Set max height for content */
+    overflow: scroll; /* Enable scrolling for long content */
+    background: linear-gradient(#f8d7da, #faefd0, #eac879, #d3a134);
+    border-radius: 10px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#aqiContent::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar width */
+    background: transparent; /* Optional: make scrollbar transparent */
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#aqiContent {
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+    scrollbar-width: none; /* Firefox */
+}

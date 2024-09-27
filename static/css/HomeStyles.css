@@ -1,0 +1,94 @@
+body {
+    background-color: #faefd0;
+    margin: 3px;
+    font-family: Arial, sans-serif;
+}
+
+#heading{
+    font-size:3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #833609;
+    
+}
+figcaption{
+    margin: 3%;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+.top {
+    background-color: #fd910470;
+    padding: 2%;
+    
+    border-radius: 10px;
+    
+}
+.container{
+    display: flex;
+    margin: 2%;
+
+}
+.main img{
+    width: 100%;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+    
+}
+.main img:hover{
+    box-shadow: 2px 5px 6px#5a420e4b,10px 10px #4a3a177c;
+
+}
+
+figure{
+    max-width: 600px;
+}
+.main{
+    width: 75%;
+    height: 100%;
+    overflow: auto;
+    margin-right: 20px;;
+
+}
+.sidebar{
+    background-color: #d3540a;
+   position: sticky;
+   top: 0;
+    height: 100vh;
+    padding: 2%;
+    width: 25%;
+    height: 100%;
+    border-radius: 8%;
+    transition: box-shadow 0.3s ease;
+
+}
+.sidebar:hover{
+    box-shadow: 5px 5px  rgba(82, 41, 21, 0.3); ;
+}
+.sidebar li{
+    border-bottom:#faefd080 solid 0.05px;
+    padding: 2%;
+}
+.sidebar ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+/* Sidebar List Item Styles */
+.sidebar ul li {
+    margin: 15px 0; /* Space between items */
+}
+
+/* Sidebar Link Styles */
+.sidebar ul li a {
+    color: white;; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+.sidebar ul li a:hover, .sidebar ul li a :active{
+    color: #eac879;
+    cursor: pointer;
+}
+

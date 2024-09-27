@@ -1,0 +1,47 @@
+/* Container for pollutants */
+.main {
+    display: flex;               
+    flex-wrap: wrap;             
+    width: 100%;                  
+    padding: 2%;               
+    justify-content: center;
+    margin: 0 auto;   
+    align-items: center;
+
+}
+
+/* Individual pollutant cards */
+.pollutants {
+    margin: 2%;                   
+    height: auto;
+    width:100%;                  
+    background-color: #f5ce65;
+    padding: 3%;
+    border-radius: 10px;
+   
+    transition: box-shadow 0.3s ease;
+}
+
+.pollutants:hover{
+    box-shadow: 10px 10px  rgba(82, 41, 21, 0.3); ;
+}
+
+/* Text and spacing adjustments */
+.pollutants p {
+    margin-left: 2.1em;
+}
+
+.pollutants h3 {
+    color: green;
+}
+
+body {
+    background-color: #faefd0;
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 768px) {
+    .pollutants {
+        width: 100%; /* Stack the cards in a single column on smaller screens */
+    }
+}

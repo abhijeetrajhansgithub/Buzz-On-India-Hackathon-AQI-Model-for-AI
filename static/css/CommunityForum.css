@@ -1,0 +1,125 @@
+/* Community Forum Icon */
+.community-forum-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    width: 60px;
+    height: 60px;
+    background-color: #4a90e2; /* Forum icon color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+.community-forum-icon:hover {
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+}
+
+.modal-content-forum {
+    position: absolute; /* Use absolute positioning */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    background: linear-gradient(#f8d7da, #faefd0, #eac879, #d3a134);
+    padding: 20px; /* Spacing inside the modal */
+    border-radius: 10px;
+    width: 40%; /* Fixed width for the modal */
+    max-height: 80%; /* Maximum height for modal */
+    overflow: hidden; /* Hide overflow of modal content */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#forumUserInput {
+    width: calc(100% - 20px); /* Adjust input width */
+    padding: 10px; /* Increase padding */
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#forumSubmitBtn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%; /* Full width for the button */
+}
+
+#forumSubmitBtn:hover {
+    background-color: #3a7bbf; /* Darker shade on hover */
+}
+
+.forum-conversation-history {
+    display: flex;
+    flex-direction: column;
+    max-height: 300px; /* Set a fixed max-height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding: 10px;
+    margin-bottom: 10px; /* Spacing at the bottom */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+.forum-conversation-history::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar width */
+    background: transparent; /* Optional: make scrollbar transparent */
+}
+
+.comment-container {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: white; /* Light background for comments */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.comment-container:hover {
+    background-color: #d1e7dd; /* Slightly darker on hover */
+}
+
+.comment-timestamp {
+    color: #4a90e2; /* Color for timestamps */
+    font-weight: bold; /* Bold for emphasis */
+    margin-right: 10px; /* Space between timestamp and comment */
+}
+
+.comment-text {
+    color: #333; /* Color for the comment text */
+}
