@@ -89,10 +89,9 @@ Pollution stats for New Delhi (lat: 28.6139, lon: 77.2089):
 AQI: 2
 ```
 
-The returned `pollution_info` dictionary would contain the concentrations of different pollutants like CO (carbon monoxide), NO2 (nitrogen dioxide), PM2.5 (particulate matter), etc. The AQI value will be a number indicating the air quality, where a lower AQI indicates better air quality.
+The returned `pollution_info` dictionary would contain the concentrations of different pollutants like CO (carbon monoxide), NO2 (nitrogen dioxide), PM2.5 (particulate matter), etc. The AQI value will indicate the air quality, whereas a lower AQI indicates better air quality.
 
 ## How to Use
 
 1. Replace `'API-key'` with your OpenWeatherMap API key.
 2. Run the script, and it will fetch and display pollution stats for New Delhi, India.
-```
