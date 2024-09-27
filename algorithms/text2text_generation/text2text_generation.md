@@ -1,4 +1,3 @@
-Below is the README.md file content based on the provided code snippets and explanations of the models used:
 
 ```markdown
 # Text Generation with Transformers Models
